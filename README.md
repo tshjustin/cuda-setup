@@ -3,10 +3,10 @@ Setting up CUDA on GPU devices
 
 1. Check if GPU exist on device (can view via Task Manager)
 
-2.
-run the following in terminal   
+2. Run the following in terminal   
 ```
 nvidia-smi 
+```
 
 # Example O/P 
 +-----------------------------------------------------------------------------+
@@ -27,13 +27,13 @@ nvidia-smi
 |        ID   ID                                                   Usage      |
 |=============================================================================|
 
-```
+
 3. Download CUDA toolkit & nvcc (Ensure comptability with GPU present): https://developer.nvidia.com/cudnn
 
 
 4. run the given script 
 
-Alternatively, if using `venv`, one can do the following (example)
+Alternatively, if using `venv`, one can do the following with the venv activated (example)
 
 ```
 conda search -c nvidia cuda-toolkit # Check for NVIDIA CUDAs 
