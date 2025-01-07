@@ -8,6 +8,7 @@ Setting up CUDA on GPU devices
 nvidia-smi 
 ```
 
+```
 # Example O/P 
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 496.76       Driver Version: 496.76       CUDA Version: 11.5     |
@@ -26,7 +27,7 @@ nvidia-smi
 |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
 |        ID   ID                                                   Usage      |
 |=============================================================================|
-
+```
 
 3. Download CUDA toolkit & nvcc (Ensure comptability with GPU present): https://developer.nvidia.com/cudnn
 
