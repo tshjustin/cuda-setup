@@ -32,11 +32,13 @@ nvidia-smi
 3. Download CUDA toolkit & nvcc (Ensure comptability with GPU present): https://developer.nvidia.com/cudnn
 
 
-4. run the given script 
+4. Run the given script 
 
-Alternatively, if using `venv`, one can do the following with the venv activated (example)
+Alternatively, if using `conda`, one can do the following with the conda activated (example)
 
 ```
+conda create --name py310 python=3.10 # or any version desired 
+
 conda search -c nvidia cuda-toolkit # Check for NVIDIA CUDAs 
 
 conda install cudatoolkit=xx.x -c nvidia # Install CUDA from NVIDIA Channel 
